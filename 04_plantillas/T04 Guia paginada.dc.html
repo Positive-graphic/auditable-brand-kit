@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:wght@400;600;700&family=IBM+Plex+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    doc-page:not(:defined) { visibility: hidden; }
+    body { font-family: 'IBM Plex Sans', sans-serif; color: #020A1B; }
+    a { color: #F20530; text-decoration: none; }
+    a:hover { color: #0C2649; }
+  </style>
+  <script src="./doc-page.js"></script>
+</helmet>
+
+<doc-page>
+
+  <section class="page" data-screen-label="01 Portada y pasos">
+    <div style="position: absolute; inset: 0; display: flex; flex-direction: column; font-family: 'IBM Plex Sans', sans-serif;">
+      <header style="background: #0C2649; padding: 0.55in 0.6in 0.5in 0.6in;">
+        <div style="display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 0.45in;">
+          <img src="assets/logo-negativo-banner.svg" alt="Auditable" style="height: 26px; display: block;">
+          <div style="font-size: 7.5pt; font-weight: 700; letter-spacing: 1.6px; text-transform: uppercase; color: #C5E3EF;">Guía para clientes / DTE 46</div>
+        </div>
+        <div style="width: 56px; height: 4px; background: #F20530; margin-bottom: 18px;"></div>
+        <div style="font-size: 8pt; font-weight: 700; letter-spacing: 1.8px; text-transform: uppercase; color: #F20530; margin-bottom: 10px;">Documento Tributario Electrónico · DTE 46</div>
+        <h1 style="font-family: 'IBM Plex Serif', serif; font-size: 30pt; line-height: 1.1; font-weight: 700; color: #FFFFFF; margin: 0 0 12px 0; letter-spacing: -0.5px;">Factura de compra electrónica</h1>
+        <p style="font-size: 12pt; color: #C5E3EF; margin: 0;">Cómo emitirla, paso a paso, y cómo impacta en tu F29.</p>
+      </header>
+
+      <div style="flex: 1; padding: 0.4in 0.6in 0 0.6in; display: flex; flex-direction: column;">
+        <div style="font-size: 8pt; font-weight: 700; letter-spacing: 1.6px; text-transform: uppercase; color: #F20530; margin-bottom: 10px;">¿Qué es y cuándo se usa?</div>
+        <div style="display: grid; grid-template-columns: 1fr 1.25fr; gap: 22px; margin-bottom: 0.35in; align-items: start;">
+          <p style="font-family: 'IBM Plex Serif', serif; font-size: 14pt; line-height: 1.35; font-weight: 600; color: #0C2649; margin: 0;">En una factura de compra, es el comprador quien emite el documento tributario — no el vendedor.</p>
+          <p style="font-size: 10pt; line-height: 1.65; color: #020A1B; margin: 0; text-align: justify;">Ocurre cuando el proveedor no puede emitir un DTE chileno. Se produce un <strong style="color: #0C2649;">cambio de sujeto</strong>: el comprador pasa a retener y pagar el IVA. Caso típico: proveedores extranjeros de servicios digitales como Shopify, Meta o Google.</p>
+        </div>
+
+        <div style="display: flex; align-items: baseline; gap: 12px; border-bottom: 2px solid #0C2649; padding-bottom: 8px; margin-bottom: 16px;">
+          <h2 style="font-family: 'IBM Plex Serif', serif; font-size: 14pt; font-weight: 700; color: #0C2649; margin: 0;">Cómo emitirla</h2>
+          <span style="font-size: 8pt; font-weight: 700; letter-spacing: 1.4px; text-transform: uppercase; color: #0C2649;">4 pasos en el portal del SII</span>
+        </div>
+
+        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 12px;">
+          <div style="background: #E6EAF1; border-top: 3px solid #0C2649; padding: 14px 16px;">
+            <div style="display: flex; align-items: center; gap: 10px; margin-bottom: 8px;">
+              <div style="width: 26px; height: 26px; background: #0C2649; color: #FFFFFF; font-family: 'IBM Plex Serif', serif; font-size: 10pt; font-weight: 700; display: flex; align-items: center; justify-content: center; flex-shrink: 0;">1</div>
+              <div style="font-size: 10.5pt; font-weight: 700; color: #0C2649;">Abre el formulario correcto</div>
+            </div>
+            <p style="font-size: 9pt; line-height: 1.6; color: #020A1B; margin: 0; text-align: justify;">Entra a Servicios online → Factura electrónica → Sistema de facturación gratuito del SII → Emisión de DTE → Factura de compra electrónica. Como la operación lleva retención, elige la opción <strong style="color: #0C2649;">“Genérico con retención total”</strong>.</p>
+          </div>
+          <div style="background: #E6EAF1; border-top: 3px solid #0C2649; padding: 14px 16px;">
+            <div style="display: flex; align-items: center; gap: 10px; margin-bottom: 8px;">
+              <div style="width: 26px; height: 26px; background: #0C2649; color: #FFFFFF; font-family: 'IBM Plex Serif', serif; font-size: 10pt; font-weight: 700; display: flex; align-items: center; justify-content: center; flex-shrink: 0;">2</div>
+              <div style="font-size: 10.5pt; font-weight: 700; color: #0C2649;">Carga al proveedor</div>
+            </div>
+            <p style="font-size: 9pt; line-height: 1.6; color: #020A1B; margin: 0; text-align: justify;">Ingresa el RUT del proveedor. En el ejemplo, Shopify: <strong style="color: #0C2649;">59.309.780-3</strong>. Si el sistema no lo reconoce, escribe a mano la razón social, dirección y giro.</p>
+          </div>
+          <div style="background: #E6EAF1; border-top: 3px solid #0C2649; padding: 14px 16px;">
+            <div style="display: flex; align-items: center; gap: 10px; margin-bottom: 8px;">
+              <div style="width: 26px; height: 26px; background: #0C2649; color: #FFFFFF; font-family: 'IBM Plex Serif', serif; font-size: 10pt; font-weight: 700; display: flex; align-items: center; justify-content: center; flex-shrink: 0;">3</div>
+              <div style="font-size: 10.5pt; font-weight: 700; color: #0C2649;">Ingresa el detalle y valida</div>
+            </div>
+            <p style="font-size: 9pt; line-height: 1.6; color: #020A1B; margin: 0; text-align: justify;">Elige el producto con cambio de sujeto, escribe una descripción y el precio neto (en el ejemplo, <strong style="color: #0C2649;">$ 513.558</strong>). El sistema calcula solo el Neto, IVA, IVA Retenido y Total. Presiona <strong style="color: #0C2649;">Validar y visualizar</strong>.</p>
+          </div>
+          <div style="background: #E6EAF1; border-top: 3px solid #F20530; padding: 14px 16px;">
+            <div style="display: flex; align-items: center; gap: 10px; margin-bottom: 8px;">
+              <div style="width: 26px; height: 26px; background: #F20530; color: #FFFFFF; font-family: 'IBM Plex Serif', serif; font-size: 10pt; font-weight: 700; display: flex; align-items: center; justify-content: center; flex-shrink: 0;">4</div>
+              <div style="font-size: 10.5pt; font-weight: 700; color: #0C2649;">Revisa, firma y emite</div>
+            </div>
+            <p style="font-size: 9pt; line-height: 1.6; color: #020A1B; margin: 0; text-align: justify;">Comprueba la vista previa. Si está correcta, presiona <strong style="color: #0C2649;">Firmar y Enviar</strong>. Queda emitida ante el SII; abre <strong style="color: #0C2649;">Ver Documento</strong> para descargarla o imprimirla.</p>
+          </div>
+        </div>
+      </div>
+
+      <footer style="margin: 0 0.6in; padding: 12px 0 0.4in 0; border-top: 1.5px solid #E6EAF1; display: flex; justify-content: space-between; font-size: 7.5pt; letter-spacing: 1.2px; text-transform: uppercase; color: #0C2649;">
+        <span><strong style="color: #0C2649;">Auditable</strong> · Factura de compra electrónica</span>
+        <span style="color: #0C2649; font-weight: 700;">01 / 04</span>
+      </footer>
+    </div>
+  </section>
+
+  <section class="page" data-screen-label="02 Formulario">
+    <div style="position: absolute; inset: 0; display: flex; flex-direction: column; font-family: 'IBM Plex Sans', sans-serif;">
+      <div style="height: 8px; background: #0C2649;"></div>
+      <div style="flex: 1; padding: 0.5in 0.6in 0 0.6in; display: flex; flex-direction: column;">
+        <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.3in;">
+          <div style="font-size: 7.5pt; font-weight: 700; letter-spacing: 1.6px; text-transform: uppercase; color: #0C2649;">Cómo emitir / El formulario con tus datos</div>
+          <img src="assets/logo-banner-rojo.svg" alt="Auditable" style="height: 16px;">
+        </div>
+        <div style="font-size: 8pt; font-weight: 700; letter-spacing: 1.8px; text-transform: uppercase; color: #F20530; margin-bottom: 8px;">Paso 2 y 3 en detalle</div>
+        <h2 style="font-family: 'IBM Plex Serif', serif; font-size: 20pt; line-height: 1.2; font-weight: 700; color: #0C2649; margin: 0 0 10px 0;">Así se completa el formulario, con los datos de Shopify</h2>
+        <p style="font-size: 10pt; line-height: 1.6; color: #020A1B; margin: 0 0 0.28in 0;">Solo escribes los datos del proveedor y el precio neto. El SII calcula el IVA, el IVA retenido y el total de forma automática.</p>
+
+        <div style="border: 1.5px solid #0C2649; margin-bottom: 0.25in;">
+          <div style="background: #0C2649; padding: 10px 16px; font-size: 8pt; font-weight: 700; letter-spacing: 1.6px; text-transform: uppercase; color: #FFFFFF;">Emisión · Factura de compra electrónica</div>
+          <div style="padding: 16px; display: grid; grid-template-columns: 1fr 1fr; gap: 12px 14px;">
+            <div style="grid-column: 1 / -1;">
+              <div style="font-size: 7.5pt; font-weight: 700; letter-spacing: 1.2px; text-transform: uppercase; color: #0C2649; margin-bottom: 4px;">Tipo de operación</div>
+              <div style="border: 1.5px solid #F20530; background: #FFFFFF; padding: 8px 12px; display: flex; justify-content: space-between; font-size: 10pt; font-weight: 600; color: #0C2649;"><span>Genérico con retención total</span><span style="color: #F20530;">▾</span></div>
+            </div>
+            <div>
+              <div style="font-size: 7.5pt; font-weight: 700; letter-spacing: 1.2px; text-transform: uppercase; color: #0C2649; margin-bottom: 4px;">RUT proveedor</div>
+              <div style="border: 1px solid #C5E3EF; background: #E6EAF1; padding: 8px 12px; font-size: 10pt; color: #020A1B;">59.309.780-3</div>
+            </div>
+            <div>
+              <div style="font-size: 7.5pt; font-weight: 700; letter-spacing: 1.2px; text-transform: uppercase; color: #0C2649; margin-bottom: 4px;">Razón social</div>
+              <div style="border: 1px solid #C5E3EF; background: #E6EAF1; padding: 8px 12px; font-size: 10pt; color: #020A1B;">Shopify International Limited</div>
+            </div>
+            <div style="grid-column: 1 / -1;">
+              <div style="font-size: 7.5pt; font-weight: 700; letter-spacing: 1.2px; text-transform: uppercase; color: #0C2649; margin-bottom: 4px;">Producto (cambio de sujeto)</div>
+              <div style="border: 1px solid #C5E3EF; background: #E6EAF1; padding: 8px 12px; font-size: 10pt; color: #020A1B;">Genérico con retención total · código predefinido</div>
+            </div>
+            <div style="grid-column: 1 / -1;">
+              <div style="font-size: 7.5pt; font-weight: 700; letter-spacing: 1.2px; text-transform: uppercase; color: #0C2649; margin-bottom: 4px;">Descripción</div>
+              <div style="border: 1px solid #C5E3EF; background: #E6EAF1; padding: 8px 12px; font-size: 10pt; color: #020A1B;">Suscripción y servicios Shopify · Bill #564903129</div>
+            </div>
+            <div>
+              <div style="font-size: 7.5pt; font-weight: 700; letter-spacing: 1.2px; text-transform: uppercase; color: #0C2649; margin-bottom: 4px;">Cantidad</div>
+              <div style="border: 1px solid #C5E3EF; background: #E6EAF1; padding: 8px 12px; font-size: 10pt; color: #020A1B;">1</div>
+            </div>
+            <div>
+              <div style="font-size: 7.5pt; font-weight: 700; letter-spacing: 1.2px; text-transform: uppercase; color: #0C2649; margin-bottom: 4px;">Precio unitario (neto)</div>
+              <div style="border: 1.5px solid #F20530; background: #FFFFFF; padding: 8px 12px; font-size: 10pt; font-weight: 700; color: #0C2649;">$ 513.558</div>
+            </div>
+          </div>
+          <div style="margin: 0 16px 16px 16px; background: #E6EAF1; padding: 14px 16px;">
+            <div style="font-size: 7.5pt; font-weight: 700; letter-spacing: 1.4px; text-transform: uppercase; color: #0C2649; margin-bottom: 8px;">Calculado automáticamente por el sistema</div>
+            <div style="display: flex; justify-content: space-between; font-size: 10pt; color: #020A1B; padding: 4px 0;"><span>Monto Neto</span><span>$ 513.558</span></div>
+            <div style="display: flex; justify-content: space-between; font-size: 10pt; color: #020A1B; padding: 4px 0;"><span>IVA 19%</span><span>$ 97.576</span></div>
+            <div style="display: flex; justify-content: space-between; font-size: 10pt; color: #F20530; font-weight: 600; padding: 4px 0;"><span>IVA Retenido (100%)</span><span>− $ 97.576</span></div>
+            <div style="display: flex; justify-content: space-between; font-size: 11pt; font-weight: 700; color: #0C2649; padding: 8px 0 0 0; margin-top: 4px; border-top: 1.5px solid #0C2649;"><span>Total</span><span style="font-family: 'IBM Plex Serif', serif;">$ 513.558</span></div>
+          </div>
+          <div style="margin: 0 16px 16px 16px; background: #0C2649; padding: 10px; text-align: center; font-size: 8pt; font-weight: 700; letter-spacing: 1.6px; text-transform: uppercase; color: #FFFFFF;">Validar y visualizar</div>
+        </div>
+
+        <div style="background: #F20530; padding: 14px 18px;">
+          <div style="font-size: 8pt; font-weight: 700; letter-spacing: 1.6px; text-transform: uppercase; color: #FFFFFF; margin-bottom: 6px;">Ojo con estos dos campos</div>
+          <p style="font-size: 9.5pt; line-height: 1.6; color: #FFFFFF; margin: 0; text-align: justify;"><strong>Tipo de operación / producto:</strong> debe ser uno con cambio de sujeto (o el genérico con retención total); de ahí sale la retención. <strong>Precio:</strong> ingresa el neto, nunca el total con IVA — el sistema agrega el IVA solo.</p>
+        </div>
+      </div>
+      <footer style="margin: 0 0.6in; padding: 12px 0 0.4in 0; border-top: 1.5px solid #E6EAF1; display: flex; justify-content: space-between; font-size: 7.5pt; letter-spacing: 1.2px; text-transform: uppercase; color: #0C2649;">
+        <span><strong style="color: #0C2649;">Auditable</strong> · Factura de compra electrónica</span>
+        <span style="color: #0C2649; font-weight: 700;">02 / 04</span>
+      </footer>
+    </div>
+  </section>
+
+  <section class="page" data-screen-label="03 Ejemplo Shopify">
+    <div style="position: absolute; inset: 0; display: flex; flex-direction: column; font-family: 'IBM Plex Sans', sans-serif;">
+      <div style="height: 8px; background: #0C2649;"></div>
+      <div style="flex: 1; padding: 0.5in 0.6in 0 0.6in; display: flex; flex-direction: column;">
+        <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.3in;">
+          <div style="font-size: 7.5pt; font-weight: 700; letter-spacing: 1.6px; text-transform: uppercase; color: #0C2649;">Ejemplo práctico / Suscripción Shopify</div>
+          <img src="assets/logo-banner-rojo.svg" alt="Auditable" style="height: 16px;">
+        </div>
+        <div style="font-size: 8pt; font-weight: 700; letter-spacing: 1.8px; text-transform: uppercase; color: #F20530; margin-bottom: 8px;">Ejemplo real</div>
+        <h2 style="font-family: 'IBM Plex Serif', serif; font-size: 20pt; line-height: 1.2; font-weight: 700; color: #0C2649; margin: 0 0 10px 0;">De la factura de Shopify a tu factura de compra</h2>
+        <p style="font-size: 10pt; line-height: 1.6; color: #020A1B; margin: 0 0 0.3in 0; text-align: justify;">Tu empresa paga la suscripción mensual de Shopify. Shopify es un proveedor extranjero (Irlanda) que no emite factura afecta en Chile, así que emites una factura de compra (DTE 46) para documentar el gasto y su IVA.</p>
+
+        <div style="display: grid; grid-template-columns: 1fr 34px 1fr; align-items: stretch; margin-bottom: 0.3in;">
+          <div style="display: flex; flex-direction: column;">
+            <div style="font-size: 7.5pt; font-weight: 700; letter-spacing: 1.4px; text-transform: uppercase; color: #0C2649; margin-bottom: 8px;">Documento del proveedor</div>
+            <div style="flex: 1; border: 1px solid #C5E3EF; background: #E6EAF1; padding: 16px;">
+              <div style="font-family: 'IBM Plex Serif', serif; font-size: 13pt; font-weight: 700; color: #0C2649; margin-bottom: 6px;">Factura Shopify</div>
+              <div style="font-size: 9pt; line-height: 1.55; color: #020A1B; margin-bottom: 12px;">
+                <div style="font-weight: 600;">Shopify International Limited</div>
+                <div>Dublín, Irlanda · RUT 59.309.780-3</div>
+                <div style="color: #0C2649;">Bill #564903129 · Pagado 28-07-2026</div>
+              </div>
+              <div style="border-top: 1px solid #C5E3EF;">
+                <div style="display: flex; justify-content: space-between; gap: 10px; font-size: 9pt; color: #020A1B; padding: 6px 0; border-bottom: 1px solid #E6EAF1;"><span>Advanced plan (suscripción)</span><span style="white-space: nowrap;">US$ 399,00</span></div>
+                <div style="display: flex; justify-content: space-between; gap: 10px; font-size: 9pt; color: #020A1B; padding: 6px 0; border-bottom: 1px solid #E6EAF1;"><span>Transaction fees (501)</span><span style="white-space: nowrap;">US$ 134,77</span></div>
+                <div style="display: flex; justify-content: space-between; gap: 10px; font-size: 9pt; color: #020A1B; padding: 6px 0; border-bottom: 1px solid #E6EAF1;"><span>Apps · Loox Reviews</span><span style="white-space: nowrap;">US$ 28,00</span></div>
+                <div style="display: flex; justify-content: space-between; gap: 10px; font-size: 9pt; color: #020A1B; padding: 6px 0; border-bottom: 1px solid #E6EAF1;"><span>Crédito</span><span style="white-space: nowrap;">−US$ 1,17</span></div>
+                <div style="display: flex; justify-content: space-between; gap: 10px; font-size: 10pt; font-weight: 700; color: #0C2649; padding: 8px 0 0 0;"><span>Total pagado</span><span style="white-space: nowrap;">US$ 560,60</span></div>
+              </div>
+            </div>
+          </div>
+          <div style="display: flex; align-items: center; justify-content: center; padding-top: 22px;">
+            <div style="width: 24px; height: 24px; background: #F20530; color: #FFFFFF; font-size: 12pt; font-weight: 700; display: flex; align-items: center; justify-content: center;">→</div>
+          </div>
+          <div style="display: flex; flex-direction: column;">
+            <div style="font-size: 7.5pt; font-weight: 700; letter-spacing: 1.4px; text-transform: uppercase; color: #F20530; margin-bottom: 8px;">Lo que emite tu empresa</div>
+            <div style="flex: 1; background: #0C2649; padding: 16px;">
+              <div style="font-family: 'IBM Plex Serif', serif; font-size: 13pt; font-weight: 700; color: #FFFFFF; margin-bottom: 6px;">Factura de compra · DTE 46</div>
+              <div style="font-size: 9pt; line-height: 1.55; color: #C5E3EF; margin-bottom: 12px;">
+                <div>Proveedor: Shopify International Limited</div>
+                <div>Con retención total de IVA (cambio de sujeto)</div>
+                <div>Valores en CLP · US$ 560,60 al TC de la fecha</div>
+              </div>
+              <div style="border-top: 1px solid rgba(197,227,239,0.4);">
+                <div style="display: flex; justify-content: space-between; font-size: 9.5pt; color: #FFFFFF; padding: 7px 0; border-bottom: 1px solid rgba(197,227,239,0.25);"><span>Monto Neto</span><span>$ 513.558</span></div>
+                <div style="display: flex; justify-content: space-between; font-size: 9.5pt; color: #FFFFFF; padding: 7px 0; border-bottom: 1px solid rgba(197,227,239,0.25);"><span>IVA 19%</span><span>$ 97.576</span></div>
+                <div style="display: flex; justify-content: space-between; font-size: 9.5pt; color: #FFFFFF; font-weight: 600; padding: 7px 0; border-bottom: 1px solid rgba(197,227,239,0.25);"><span>IVA Retenido (100%)</span><span>−$ 97.576</span></div>
+                <div style="display: flex; justify-content: space-between; font-size: 10.5pt; font-weight: 700; color: #FFFFFF; padding: 9px 0 0 0;"><span>Total al proveedor</span><span style="font-family: 'IBM Plex Serif', serif;">$ 513.558</span></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div style="background: #E6EAF1; border-left: 4px solid #F20530; padding: 16px 20px;">
+          <div style="font-size: 8pt; font-weight: 700; letter-spacing: 1.6px; text-transform: uppercase; color: #F20530; margin-bottom: 8px;">La clave: el IVA de $ 97.576 cumple un doble rol</div>
+          <p style="font-size: 10pt; line-height: 1.65; color: #020A1B; margin: 0; text-align: justify;">Ese IVA no lo paga Shopify: <strong>lo retienes tú</strong>. Y ese mismo monto tiene dos efectos en tu F29 — se usa como <strong style="color: #0C2649;">crédito fiscal</strong> (rebaja el IVA de tus ventas) y a la vez se entera como <strong style="color: #0C2649;">IVA retenido</strong> al SII. Lo vemos en la página siguiente.</p>
+        </div>
+      </div>
+      <footer style="margin: 0 0.6in; padding: 12px 0 0.4in 0; border-top: 1.5px solid #E6EAF1; display: flex; justify-content: space-between; font-size: 7.5pt; letter-spacing: 1.2px; text-transform: uppercase; color: #0C2649;">
+        <span><strong style="color: #0C2649;">Auditable</strong> · Factura de compra electrónica</span>
+        <span style="color: #0C2649; font-weight: 700;">03 / 04</span>
+      </footer>
+    </div>
+  </section>
+
+  <section class="page" data-screen-label="04 Impacto F29">
+    <div style="position: absolute; inset: 0; display: flex; flex-direction: column; font-family: 'IBM Plex Sans', sans-serif;">
+      <div style="height: 8px; background: #0C2649;"></div>
+      <div style="flex: 1; padding: 0.5in 0.6in 0 0.6in; display: flex; flex-direction: column;">
+        <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.3in;">
+          <div style="font-size: 7.5pt; font-weight: 700; letter-spacing: 1.6px; text-transform: uppercase; color: #0C2649;">Impacto en el F29 / Período mensual</div>
+          <img src="assets/logo-banner-rojo.svg" alt="Auditable" style="height: 16px;">
+        </div>
+        <div style="font-size: 8pt; font-weight: 700; letter-spacing: 1.8px; text-transform: uppercase; color: #F20530; margin-bottom: 8px;">Cómo tributa en el Formulario 29</div>
+        <h2 style="font-family: 'IBM Plex Serif', serif; font-size: 20pt; line-height: 1.2; font-weight: 700; color: #0C2649; margin: 0 0 10px 0;">El IVA de la factura de compra en tu F29</h2>
+        <p style="font-size: 10pt; line-height: 1.6; color: #020A1B; margin: 0 0 0.25in 0; text-align: justify;">Supongamos que en el mismo período tu empresa tuvo ventas netas por $ 1.000.000 (IVA débito $ 190.000) y emitió la factura de compra a Shopify por $ 513.558 netos (IVA $ 97.576).</p>
+
+        <table style="width: 100%; border-collapse: collapse; margin-bottom: 0.25in;">
+          <thead>
+            <tr style="background: #0C2649;">
+              <th style="padding: 9px 12px; text-align: left; font-size: 7.5pt; font-weight: 700; letter-spacing: 1.2px; text-transform: uppercase; color: #FFFFFF; width: 16%;">Código</th>
+              <th style="padding: 9px 12px; text-align: left; font-size: 7.5pt; font-weight: 700; letter-spacing: 1.2px; text-transform: uppercase; color: #FFFFFF;">Concepto</th>
+              <th style="padding: 9px 12px; text-align: right; font-size: 7.5pt; font-weight: 700; letter-spacing: 1.2px; text-transform: uppercase; color: #FFFFFF; width: 22%;">Monto</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr style="border-bottom: 1px solid #E6EAF1;">
+              <td style="padding: 11px 12px; vertical-align: top; font-family: 'IBM Plex Serif', serif; font-size: 11pt; font-weight: 700; color: #0C2649;">538</td>
+              <td style="padding: 11px 12px;"><div style="font-size: 10pt; font-weight: 600; color: #0C2649;">Débito fiscal — ventas del período</div><div style="font-size: 8.5pt; color: #0C2649; margin-top: 2px;">IVA de tus ventas: $ 1.000.000 × 19%</div></td>
+              <td style="padding: 11px 12px; text-align: right; vertical-align: top; font-size: 10pt; color: #020A1B; white-space: nowrap;">$ 190.000</td>
+            </tr>
+            <tr style="border-bottom: 1px solid #E6EAF1; background: #E6EAF1;">
+              <td style="padding: 11px 12px; vertical-align: top; font-family: 'IBM Plex Serif', serif; font-size: 11pt; font-weight: 700; color: #0C2649;">520 / 511</td>
+              <td style="padding: 11px 12px;"><div style="font-size: 10pt; font-weight: 600; color: #0C2649;">Crédito fiscal — factura de compra</div><div style="font-size: 8.5pt; color: #0C2649; margin-top: 2px;">IVA de la factura de compra Shopify (rebaja el débito)</div></td>
+              <td style="padding: 11px 12px; text-align: right; vertical-align: top; font-size: 10pt; font-weight: 600; color: #F20530; white-space: nowrap;">− $ 97.576</td>
+            </tr>
+            <tr style="border-bottom: 2px solid #C5E3EF;">
+              <td style="padding: 11px 12px; vertical-align: top; font-size: 11pt; color: #0C2649;">—</td>
+              <td style="padding: 11px 12px;"><div style="font-size: 10pt; font-weight: 600; color: #0C2649;">IVA determinado por ventas</div><div style="font-size: 8.5pt; color: #0C2649; margin-top: 2px;">$ 190.000 − $ 97.576</div></td>
+              <td style="padding: 11px 12px; text-align: right; vertical-align: top; font-size: 10pt; font-weight: 600; color: #0C2649; white-space: nowrap;">$ 92.424</td>
+            </tr>
+            <tr style="border-bottom: 1px solid #E6EAF1; background: #E6EAF1;">
+              <td style="padding: 11px 12px; vertical-align: top; font-family: 'IBM Plex Serif', serif; font-size: 11pt; font-weight: 700; color: #0C2649;">39</td>
+              <td style="padding: 11px 12px;"><div style="font-size: 10pt; font-weight: 600; color: #0C2649;">IVA total retenido a terceros</div><div style="font-size: 8.5pt; color: #0C2649; margin-top: 2px;">Cambio de sujeto · línea 104 · lo enteras por el proveedor extranjero</div></td>
+              <td style="padding: 11px 12px; text-align: right; vertical-align: top; font-size: 10pt; font-weight: 600; color: #0C2649; white-space: nowrap;">+ $ 97.576</td>
+            </tr>
+            <tr style="background: #0C2649;">
+              <td style="padding: 13px 12px; font-size: 11pt; color: #C5E3EF;">—</td>
+              <td style="padding: 13px 12px; font-size: 10.5pt; font-weight: 700; color: #FFFFFF;">Total a pagar en el F29</td>
+              <td style="padding: 13px 12px; text-align: right; font-family: 'IBM Plex Serif', serif; font-size: 13pt; font-weight: 700; color: #FFFFFF; white-space: nowrap;">$ 190.000</td>
+            </tr>
+          </tbody>
+        </table>
+
+        <div style="background: #E6EAF1; border-left: 4px solid #F20530; padding: 16px 20px; margin-bottom: 0.22in;">
+          <div style="font-size: 8pt; font-weight: 700; letter-spacing: 1.6px; text-transform: uppercase; color: #F20530; margin-bottom: 8px;">Qué significa esto para ti</div>
+          <p style="font-size: 10pt; line-height: 1.65; color: #020A1B; margin: 0; text-align: justify;">El crédito ($ 97.576) y la retención ($ 97.576) se compensan: tu F29 termina en <strong style="color: #0C2649;">$ 190.000</strong>, lo mismo que el IVA de tus ventas. En la práctica, la factura de compra no te encarece el IVA — recuperas como crédito lo que enteras como retención — pero es obligatoria para documentar el servicio extranjero y usar su IVA. <strong style="color: #F20530;">Sin ella, pierdes ese crédito.</strong></p>
+        </div>
+
+        <div style="background: #0C2649; padding: 14px 20px; margin-bottom: 0.2in;">
+          <p style="font-size: 10pt; line-height: 1.6; color: #FFFFFF; margin: 0;">Al terminar de leer sabes cómo emitir la factura de compra y cómo se refleja en tu F29. <strong style="color: #C5E3EF;">¿Dudas con un caso? Lo revisamos contigo.</strong></p>
+        </div>
+
+        <p style="font-size: 7.5pt; line-height: 1.55; color: #0C2649; margin: 0; text-align: justify;"><strong style="color: #0C2649;">Fuentes</strong> · SII, Guía “Cómo emitir una Factura de Compra Electrónica” e Instrucciones F29 (código 39, línea 104). Valores del ejemplo referenciales; el tipo de cambio y los códigos deben verificarse en cada período.</p>
+      </div>
+      <footer style="margin: 0 0.6in; padding: 12px 0 0.4in 0; border-top: 1.5px solid #E6EAF1; display: flex; justify-content: space-between; font-size: 7.5pt; letter-spacing: 1.2px; text-transform: uppercase; color: #0C2649;">
+        <span><strong style="color: #0C2649;">Auditable</strong> · Factura de compra electrónica</span>
+        <span style="color: #0C2649; font-weight: 700;">04 / 04</span>
+      </footer>
+    </div>
+  </section>
+
+</doc-page>
+</x-dc>
+</body>
+</html>
